@@ -138,7 +138,7 @@ const Home = () => {
             <img src={hero} alt='' className='w-full h-full' />
           </div>
           <div className='mx-3 md:w-1/2 w-full h-full p-2 relative top-0 flex flex-col justify-start items-center md:gap-y-6 gap-y-2'>
-            <div className='flex justify-start items-start md:flex-row flex-col w-full'>
+            <div className='flex justify-start flex-wrap items-start md:flex-row flex-col w-full'>
               <h1 className='md:text-[2.5rem] text-[1.25rem] font-medium leading-10 tracking-wider text-start'>
                 Hello, I'm{" "}
                 <span className='md:text-[2.5rem] text-[1.6rem] font-bold capitalize'>
@@ -147,7 +147,7 @@ const Home = () => {
                 .
               </h1>
             </div>
-            <div className='flex justify-start md:flex-row flex-col items-center w-full gap-x-4'>
+            <div className='flex justify-start md:flex-row flex-col flex-wrap items-center w-full gap-x-4'>
               <span className='md:text-[2.5rem] text-[1.25rem] md:w-auto w-full font-medium leading-10 tracking-[5px] text-start'>
                 Software
               </span>
@@ -155,7 +155,7 @@ const Home = () => {
                 DEVELOPER
               </span>
             </div>
-            <div className='flex justify-start md:flex-row flex-col items-center w-full md:gap-x-4 gap-x-2 mb-8'>
+            <div className='flex justify-start md:flex-row flex-wrap flex-col items-center w-full md:gap-x-4 gap-x-2 mb-8'>
               <span className='md:text-[2.5rem] text-[1.25rem] w-full md:w-[40%] font-medium leading-10 tracking-[5px] text-start'>
                 Based In
               </span>{" "}
