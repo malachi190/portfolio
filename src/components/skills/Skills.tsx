@@ -64,7 +64,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className='relative top-[5rem] w-full h-full px-8'>
+    <div className='relative top-[5rem] w-full h-full px-4'>
       <div className='p-[1px] bg-black max-w-full w-full rounded-lg mx-auto' />
 
       <div className='flex flex-col justify-center items-center w-full h-full mb-[6rem]'>
@@ -73,10 +73,10 @@ const Skills = () => {
             My <span className='font-bold tracking-wider'>Skills</span>
           </h1>
         </div>
-        <div className='grid md:grid-cols-4 grid-cols-2 justify-between items-center gap-10 relative top-[8rem] w-full'>
+        <div className='grid md:grid-cols-4 grid-cols-3 justify-between items-center gap-10 relative top-[8rem] w-full'>
           {skills.map((skill, index) => (
             <div
-              className='p-5 m-auto flex flex-col justify-center items-center gap-y-5 border-2 border-black rounded-sm text-center w-[200px] h-[150px]'
+              className='p-5 m-auto flex flex-col justify-center items-center gap-y-3 border-2 border-black rounded-sm text-center md:w-[200px] w-full h-[100px] md:h-[150px]'
               key={index}
             >
               <span className='text-3xl'>{skill.logo}</span>
