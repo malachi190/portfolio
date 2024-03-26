@@ -5,6 +5,7 @@ import trendteon from "../../assets/trendteon.jpeg";
 import newsteon from "../../assets/newsteon.jpeg";
 import surveyteon from "../../assets/survey.jpeg";
 import pollteon from "../../assets/poll.jpeg";
+import tracker from '../../assets/tracker.jpeg'
 
 // type Props = {}
 
@@ -50,13 +51,43 @@ const Projects = () => {
         </div>
 
         <div className='flex flex-auto md:flex-row flex-col justify-center items-center mx-auto gap-x-10 px-5 w-full relative top-[4rem]'>
+          <div className='self-start px-6 md:w-1/2 w-full md:mb-0 mb-8'>
+            <Link to={"https://www.precisetracker.com/"}>
+              <img
+                src={tracker}
+                alt=''
+                className='w-full h-full rounded-md'
+              />
+            </Link>
+          </div>
+          <div className='px-6 md:w-1/2 w-full justify-start items-start gap-y-5 flex flex-1 flex-col'>
+            <h1 className='text-[3.5rem] font-bold'>02</h1>
+            <h1 className='text-[2rem] font-bold tracking-widest capitalize'>
+              Precise Tracker
+            </h1>
+            <p className='font-medium text-lg'>
+              Precise Tracker serves as an in house tool for tracking and monitoring campaign activities on across the web,
+              this web app crawls the internet for mentions of certain keywords on campaign projects using machine learning models
+              and connected to the app through an external API.
+              <br />
+              Built with Laravel, TailwindCss & MySQL DBMS.
+            </p>
+            <div className='mt-5'>
+              <Link to={"https://www.precisetracker.com/"} className='text-2xl'>
+                <TbExternalLink />
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className='flex flex-auto md:flex-row flex-col justify-center items-center mx-auto gap-x-10 px-5 w-full relative top-[4rem]'>
           <div className='self-start px-6 md:w-1/2 w-full md:mb-0 mb-8 md:hidden'>
             <Link to={"https://www.pollteon.com/"}>
               <img src={pollteon} alt='' className='w-full h-full rounded-md' />
             </Link>
           </div>
           <div className='px-6 md:w-1/2 w-full justify-start items-start gap-y-5 flex flex-1 flex-col'>
-            <h1 className='text-[3.5rem] font-bold'>02</h1>
+            <h1 className='text-[3.5rem] font-bold'>03</h1>
             <h1 className='text-[2rem] font-bold tracking-widest capitalize'>
               PollTeon
             </h1>
@@ -88,7 +119,7 @@ const Projects = () => {
             </Link>
           </div>
           <div className='px-6 md:w-1/2 w-full justify-start items-start gap-y-5 flex flex-1 flex-col'>
-            <h1 className='text-[3.5rem] font-bold'>03</h1>
+            <h1 className='text-[3.5rem] font-bold'>04</h1>
             <h1 className='text-[2rem] font-bold tracking-widest capitalize'>
               NewsTeon
             </h1>
@@ -118,7 +149,7 @@ const Projects = () => {
             </Link>
           </div>
           <div className='px-6 md:w-1/2 w-full justify-start items-start gap-y-5 flex flex-1 flex-col'>
-            <h1 className='text-[3.5rem] font-bold'>04</h1>
+            <h1 className='text-[3.5rem] font-bold'>05</h1>
             <h1 className='text-[2rem] font-bold tracking-widest capitalize'>
               SurveyTeon
             </h1>
