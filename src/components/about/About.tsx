@@ -26,7 +26,7 @@ const About = () => {
             challenges. Now in my mid twenties, five years into my development
             journey, I'm at the forefront of building cutting-edge web and mobile
             applications. I leverage modern technologies like Next.js,
-            TypeScript, React.js & React Native, Tailwind CSS, Firebase, and more to create
+            TypeScript, React.js, Tailwind CSS, Firebase, and more to create
             robust solutions. Outside of coding, I actively engage in
             professional development and networking opportunities, seeking to
             stay updated with industry trends and best practices.

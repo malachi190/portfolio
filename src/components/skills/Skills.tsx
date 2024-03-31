@@ -8,9 +8,9 @@ import { FaLaravel } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoTypescript } from "react-icons/bi";
-import { FaAws } from "react-icons/fa6";
-import { TbBrandReactNative } from "react-icons/tb";
-import { SiRedis } from "react-icons/si";
+// import { FaAws } from "react-icons/fa6";
+// import { TbBrandReactNative } from "react-icons/tb";
+// import { SiRedis } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
@@ -49,19 +49,19 @@ const Skills = () => {
     {
       skillName: "NextJs",
       logo: <TbBrandNextjs />,
-    },
-    {
-      skillName: "AWS",
-      logo: <FaAws />,
-    },
-    {
-      skillName: "React Native",
-      logo: <TbBrandReactNative />,
-    },
-    {
-      skillName: "Redis",
-      logo: <SiRedis />,
-    },
+    }
+    // {
+    //   skillName: "AWS",
+    //   logo: <FaAws />,
+    // },
+    // {
+    //   skillName: "React Native",
+    //   logo: <TbBrandReactNative />,
+    // },
+    // {
+    //   skillName: "Redis",
+    //   logo: <SiRedis />,
+    // },
   ];
   return (
     <div className='relative top-[5rem] w-full h-full px-4'>
@@ -73,7 +73,7 @@ const Skills = () => {
             My <span className='font-bold tracking-wider'>Skills</span>
           </h1>
         </div>
-        <div className='grid md:grid-cols-4 grid-cols-3 justify-between items-center gap-10 relative top-[8rem] w-full'>
+        <div className='grid md:grid-cols-3 grid-cols-3 justify-between items-center gap-10 relative top-[8rem] w-full'>
           {skills.map((skill, index) => (
             <div
               className='p-5 m-auto flex flex-col justify-center items-center gap-y-3 border-2 border-black rounded-sm text-center md:w-[200px] w-full h-[100px] md:h-[150px]'
