@@ -10,7 +10,7 @@ import Skills from "../skills/Skills";
 import About from "../about/About";
 import Projects from "../projects/Projects";
 import Contact from "../contact_me/Contact";
-import cv from "../../assets/MALACHI AFEN OKPLEYA.pdf";
+import cv from "../../assets/Malachi afen okpleya (1).pdf";
 import { RiMenu3Line } from "react-icons/ri";
 import { MdClose } from "react-icons/md";
 
